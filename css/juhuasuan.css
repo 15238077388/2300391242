@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-cat {
+    position: relative;
+}
+
+.header-max-nav ul li:nth-child(6) a {
+    color: red;
+}
+
+.l-box {
+    position: absolute;
+    z-index: 30;
+    background-color: #333;
+    height: 280px;
+    width: 232px;
+}
+
+.l-box-item {
+    height: 100%;
+    cursor: pointer;
+}
+
+.l-box-items {
+    border-bottom: 1px dotted #555;
+    height: 39px;
+}
+
+.l-box-items:hover {
+    background-color: #f00;
+}
+
+.l-items-content {
+    width: 134px;
+    padding: 0 16px 0 30px;
+    float: left;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.woff2?t=1632217032206') format('woff2'), url('iconfont.woff?t=1632217032206') format('woff'), url('iconfont.ttf?t=1632217032206') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 39px;
+}
+
+.l-items-content .gaidaxiao {
+    font-size: 18px;
+}
+
+.l-items-content i {
+    color: white;
+    float: left;
+}
+
+.items-title {
+    width: 106px;
+    text-align: left;
+    height: 39px;
+    /* float: left; */
+    margin-left: 10px;
+}
+
+.items-title a {
+    color: white;
+    font-size: 14px;
+}
+
+.l-content {
+    position: relative;
+    z-index: 2;
+}
+
+.l-act-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.l-banner {
+    position: relative;
+    width: 100%;
+}
+
+.l-w1200 {
+    margin: 0 auto;
+    width: 1200px;
+    /* position: relative; */
+}
+
+.l-crazy {
+    background: #F8F8F8;
+    padding: 40px 0;
+}
+
+.l-crazy-hd {
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.l-w1200 .l-crazy-hd h2 {
+    float: left;
+    font-size: 28px;
+    padding-left: 40px;
+    background: url(../images/crazy-icon.png) no-repeat left center;
+}
+
+.l-index-main {
+    padding: 40px 0 80px 20px;
+}
+
+.l-index-main h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.l-index-main ul {
+    margin: 10px -10px 0 0;
+}
+
+.l-index-main .clearfix {
+    clear: both;
+}
+
+.l-gb-btn-all {
+    display: block;
+    border: 1px solid #d2d2d2;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}

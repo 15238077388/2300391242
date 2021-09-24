@@ -1,0 +1,1571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/erji.css">
+    <link rel="stylesheet" href="../css/base1.css">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" type="text/css" href="../css/default.css">
+    <link rel="stylesheet" href="../css/dianpujie.css">
+    <link rel="stylesheet" href="../fonts/font_2825676_au5pzndujen/iconfont.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/header.js"></script>
+    <style type="text/css">
+        body {
+            background-color: #fff;
+        }
+        
+        #gallery-wrapper {
+            position: relative;
+            max-width: 1200px;
+            width: 1200px;
+            margin: 50px auto 0;
+        }
+        
+        img.thumb {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .white-panel {
+            background-color: #f8f8f8;
+            position: absolute;
+            border-radius: 5px;
+            /* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3); */
+            padding: 5px;
+            border: 4px solid #e5e5e5;
+        }
+        
+        .white-panel h1 {
+            font-size: 1em;
+        }
+        
+        .white-panel h1 a {
+            color: #A92733;
+        }
+        
+        .white-panel:hover {
+            border-color: #aaaaaa;
+            /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); */
+            margin-top: -5px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <div class="header-topNav">
+            <div class="header-top">
+                <div class="fl header-top-left">
+                    <div class="header-icon   fl">
+                        <i class="iconfont .icon-weizhi red">&#xe61b;</i>
+                        <span>郑州市</span>
+                        <div class="header-zen"></div>
+                    </div>
+                    <!-- 位置搜索 -->
+                    <div class="header-location">
+                        <div class="header-hot">
+                            <a href="#">苏州市</a>
+                            <a href="#">北京市</a>
+                            <a href="#">天津市</a>
+                            <a href="#">上海市</a>
+                        </div>
+                        <div class="header-letter">
+                            <a href="#" data-letter="A">A</a>
+                            <a href="#" data-letter="B">B</a>
+                            <a href="#" data-letter="C">C</a>
+                            <a href="#" data-letter="D">D</a>
+                            <a href="#" data-letter="E">E</a>
+                            <a href="#" data-letter="F">F</a>
+                            <a href="#" data-letter="G">G</a>
+                            <a href="#" data-letter="H">H</a>
+                            <a href="#" data-letter="J">J</a>
+                            <a href="#" data-letter="K">K</a>
+                            <a href="#" data-letter="L">L</a>
+                            <a href="#" data-letter="M">M</a>
+                            <a href="#" data-letter="N">N</a>
+                            <a href="#" data-letter="P">P</a>
+                            <a href="#" data-letter="Q">Q</a>
+                            <a href="#" data-letter="R">R</a>
+                            <a href="#" data-letter="S">S</a>
+                            <a href="#" data-letter="T">T</a>
+                            <a href="#" data-letter="W">W</a>
+                            <a href="#" data-letter="X">X</a>
+                            <a href="#" data-letter="Y">Y</a>
+                            <a href="#" data-letter="Z">Z</a>
+                        </div>
+                        <div class="header-scrollboty">
+                            <div class="header-allList fl">
+                                <ul id="header-lists">
+                                    <li>
+                                        <em data-name="A">A</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="B">B</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="C">C</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="D">D</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="E">E</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="F">F</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="G">G</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="H">H</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="J">J</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="K">K</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="L">L</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="M">M</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="N">N</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="P">P</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="Q">Q</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="R">R</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="S">S</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="T">T</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="W">W</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">安顺市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="X">X</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                            <a href="#">澳门</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="Y">Y</em>
+                                        <div class="header-item-city">
+                                            <a href="#">安庆市</a>
+                                            <a href="#">安阳市</a>
+                                            <a href="#">安康市</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <em data-name="Z">Z</em>
+                                        <div class="header-item-city">
+                                            <a href="#">郑州市</a>
+                                            <a href="#" class="city-selected">周口市</a>
+                                            <a href="#">驻马店市</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-scorllBar">
+                                <p class="header-bar"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fl header-enter">
+                        <span class="red"><a href="#" class="red">请登录</a> </span>
+                        <span><a href="#" class="log">免费注册</a> </span>
+                    </div>
+                </div>
+                <ul class="fr header-top-right">
+                    <li><a href="#">我的订单</a></li>
+                    <li class="header-spacer"></li>
+                    <li><a href="#">我的浏览</a></li>
+                    <li class="header-spacer"></li>
+                    <li><a href="#">我的收藏</a></li>
+                    <li class="header-spacer"></li>
+                    <li><a href="#">客户服务</a></li>
+                    <li class="header-spacer"></li>
+                    <li class="header-for">
+                        网站导航<i class="iconfont .icon-down">&#xe600;</i>
+                        <div class="header-dorpdown1">
+                            <div class="header-fore-white"></div>
+                            <dl class="header-fore1 fl">
+                                <dt>特色主题</dt>
+                                <dd><a href="#">家用电器</a></dd>
+                                <dd><a href="#">男装女装</a></dd>
+                                <dd><a href="#">鞋靴箱包</a></dd>
+                            </dl>
+                            <dl class="header-fore2 fl">
+                                <dt>促销活动</dt>
+                                <dd><a href="#">拍卖活动</a></dd>
+                                <dd><a href="#">共创商品</a></dd>
+                                <dd><a href="#">积分商城</a></dd>
+                                <dd><a href="#">CMS频道</a></dd>
+                                <dd><a href="#">优惠活动</a></dd>
+                                <dd><a href="#">超值礼包</a></dd>
+                                <dd><a href="#">优惠券</a></dd>
+                                <dd><a href="#">礼品卡</a></dd>
+                                <dd><a href="#">预售商品</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="header-nav-top">
+                <div class="header-logo fl ">
+                    <a href="index.html"><img src="../images/shop_logo.gif" alt=""></a>
+
+                </div>
+                <!-- input输入框 -->
+                <div class="header-search fl">
+                    <form action="">
+                        <input type="text" placeholder="周大福">
+                        <button>搜商品</button>
+                        <button>搜店铺</button>
+                    </form>
+                    <ul>
+                        <li>
+                            <a href="#">周大福</a>
+                        </li>
+                        <li>
+                            <a href="#">内衣</a>
+                        </li>
+                        <li>
+                            <a href="#">Five Plus</a>
+                        </li>
+                        <li>
+                            <a href="#">手机</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 购物车 -->
+                <div class="header-shopping fr">
+                    <a href="#">
+                        <i class="iconfont .icon-03" id="icon-font">&#xe7bd;</i>
+                        <span class="red">我的购物车</span>
+                        <em class="em-bord">0</em>
+                    </a>
+                </div>
+                <div class="header-dorpdown">
+                    <div class="header-noggods">
+                        <img src="../images/cart-nogoods.png" class="fl" alt="">
+                        <span>购物车中还没有商品，赶紧选购吧！</span>
+                    </div>
+                    <div class="header-white"></div>
+                </div>
+            </div>
+            <!-- 一级导航 -->
+            <div class="header-nav-buttom">
+                <div class="header-cat">
+                    <div class="categorys-type"><a>全部商品分类</a></div>
+                    <div class="categorys-tab-content"></div>
+                </div>
+
+
+                <div class="header-max-nav ">
+                    <ul>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">个体美妆</a></li>
+                        <li><a href="">服装城</a></li>
+                        <li><a href="">家用电器</a></li>
+                        <li><a href="">鞋靴箱包</a></li>
+                        <li><a href="">聚划算</a></li>
+                        <li><a href="">预售</a></li>
+                        <li><a href="">店铺街</a></li>
+                        <li><a href="">品牌专区</a></li>
+                        <li><a href="">公告</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- 二级导航 -->
+    <div class="w1200 pd">
+        <ul class="variety clearfix">
+            <li class="variety-item">
+                <span class="iconfont icon-weibolu"></span>
+                <strong class=".text-left "><a href="#" class="">家用电器</a></strong><br>
+                <span><a href="#">厨房电器</a>
+        <a href="#">大家电</a></span>
+            </li>
+            <li class="variety-item">
+                <span class="iconfont icon-nanzhuang"></span>
+                <strong class=".text-left "><a href="#" class="">男装、女装、内衣</a></strong><br>
+                <span><a href="#">厨房电器</a>
+        <a href="#">大家电</a></span>
+            </li>
+            <li class="variety-item">
+                <span class="iconfont icon-xiexue"></span>
+                <strong class=".text-left "><a href="#" class="">鞋靴、箱包、钟表、奢侈品</a></strong><br>
+                <span><a href="#">厨房电器</a>
+        <a href="#">大家电</a></span>
+            </li>
+            <li class="variety-item">
+                <span class="iconfont icon-xiangji"></span>
+                <strong class=".text-left "><a href="#" class="">手机、数码、通信</a></strong><br>
+                <span><a href="#">厨房电器</a>
+        <a href="#">大家电</a></span>
+            </li>
+            <li class="variety-item">
+                <span class="iconfont icon-dashujutubiao--"></span>
+                <strong class=".text-left "><a href="#" class="">电脑、办公</a></strong><br>
+                <span><a href="#">厨房电器</a>
+        <a href="#">大家电</a></span>
+            </li>
+            <li class="variety-item">
+                <span class="iconfont icon-chuang"></span>
+                <strong class=".text-left "><a href="#" class="">家居、家具、家装、厨具</a></strong><br>
+                <span><a href="#">厨房电器</a>
+        <a href="#">大家电</a></span>
+            </li>
+            <li class="variety-item">
+                <span class="iconfont icon-meizhuang"></span>
+                <strong class=".text-left "><a href="#" class="">个体美妆</a></strong><br>
+                <span><a href="#">厨房电器</a>
+        <a href="#">大家电</a></span>
+            </li>
+            <!-- 商品分类hover的内容 -->
+            <li id='zzzzzz'>
+                <div class="cate-layer-con clearfix">
+                    <div class="layer-con-left fl">
+                        <div class="con-left-nav">
+                            <a href="#">品牌日</a>
+                            <a href="#">家电城</a>
+                            <a href="#">智能生活馆</a>
+                            <a href="#">京东净化馆</a>
+                            <a href="#">京东帮助馆</a>
+                        </div>
+                        <div class="con-left-conter clearfix">
+                            <ul class="con-left-conter">
+                                <!-- 一个商品分类li  -->
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="layer-con-right fr">
+                        <div class="small-img">
+                            <img src="images/y-logo1.jpg" alt="">
+                            <img src="images/y-logo2.jpg" alt="">
+                            <img src="images/y-logo3.jpg" alt="">
+                            <img src="images/y-logo4.jpg" alt="">
+                            <img src="images/y-logo5.jpg" alt="">
+                            <img src="images/y-logo6.jpg" alt="">
+                            <img src="images/y-logo7.jpg" alt="">
+                            <img src="images/y-logo8.jpg" alt="">
+                            <img src="images/y-logo9.jpg" alt="">
+                            <img src="images/y-logo10.jpg" alt="">
+                            <img src="images/y-logo11.jpg" alt="">
+                            <img src="images/y-logo12.jpg" alt="">
+                            <img src="images/y-logo13.jpg" alt="">
+
+                        </div>
+                        <div class="big-img">
+                            <img src="images/y-logo20.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cate-layer-con clearfix">
+                    <div class="layer-con-left fl">
+                        <div class="con-left-nav">
+                            <a href="#">品牌日</a>
+                            <a href="#">家电城</a>
+                            <a href="#">智能生活馆</a>
+                            <a href="#">京东净化馆</a>
+                            <a href="#">京东帮助馆</a>
+                        </div>
+                        <div class="con-left-conter clearfix">
+                            <ul class="con-left-conter">
+                                <!-- 一个商品分类li  -->
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="layer-con-right fr">
+                        <div class="small-img">
+                            <img src="images/y-logo1.jpg" alt="">
+                            <img src="images/y-logo2.jpg" alt="">
+                            <img src="images/y-logo3.jpg" alt="">
+                            <img src="images/y-logo4.jpg" alt="">
+
+                        </div>
+                        <div class="big-img">
+                            <img src="images/y-logo20.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cate-layer-con clearfix">
+                    <div class="layer-con-left fl">
+                        <div class="con-left-nav">
+                            <a href="#">品牌日</a>
+                            <a href="#">家电城</a>
+                            <a href="#">智能生活馆</a>
+                            <a href="#">京东净化馆</a>
+                            <a href="#">京东帮助馆</a>
+                        </div>
+                        <div class="con-left-conter clearfix">
+                            <ul class="con-left-conter">
+                                <!-- 一个商品分类li  -->
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="layer-con-right fr">
+                        <div class="small-img">
+                            <img src="images/y-logo1.jpg" alt="">
+                            <img src="images/y-logo2.jpg" alt="">
+                            <img src="images/y-logo3.jpg" alt="">
+                            <img src="images/y-logo4.jpg" alt="">
+                            <img src="images/y-logo5.jpg" alt="">
+                            <img src="images/y-logo6.jpg" alt="">
+                            <img src="images/y-logo7.jpg" alt="">
+                            <img src="images/y-logo8.jpg" alt="">
+                            <img src="images/y-logo9.jpg" alt="">
+                            <img src="images/y-logo10.jpg" alt="">
+                            <img src="images/y-logo11.jpg" alt="">
+                            <img src="images/y-logo12.jpg" alt="">
+                            <img src="images/y-logo13.jpg" alt="">
+
+                        </div>
+                        <div class="big-img">
+                            <img src="images/y-logo20.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cate-layer-con clearfix">
+                    <div class="layer-con-left fl">
+                        <div class="con-left-nav">
+                            <a href="#">品牌日</a>
+                            <a href="#">家电城</a>
+                            <a href="#">智能生活馆</a>
+                            <a href="#">京东净化馆</a>
+                            <a href="#">京东帮助馆</a>
+                        </div>
+                        <div class="con-left-conter clearfix">
+                            <ul class="con-left-conter">
+                                <!-- 一个商品分类li  -->
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="layer-con-right fr">
+                        <div class="small-img">
+                            <img src="images/y-logo1.jpg" alt="">
+                            <img src="images/y-logo2.jpg" alt="">
+                            <img src="images/y-logo3.jpg" alt="">
+                            <img src="images/y-logo4.jpg" alt="">
+
+                        </div>
+                        <div class="big-img">
+                            <img src="images/y-logo20.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cate-layer-con clearfix">
+                    <div class="layer-con-left fl">
+                        <div class="con-left-nav">
+                            <a href="#">品牌日</a>
+                            <a href="#">家电城</a>
+                            <a href="#">智能生活馆</a>
+                            <a href="#">京东净化馆</a>
+                            <a href="#">京东帮助馆</a>
+                        </div>
+                        <div class="con-left-conter clearfix">
+                            <ul class="con-left-conter">
+                                <!-- 一个商品分类li  -->
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="layer-con-right fr">
+                        <div class="small-img">
+                            <img src="images/y-logo1.jpg" alt="">
+                            <img src="images/y-logo2.jpg" alt="">
+                            <img src="images/y-logo3.jpg" alt="">
+                            <img src="images/y-logo4.jpg" alt="">
+                            <img src="images/y-logo5.jpg" alt="">
+                            <img src="images/y-logo6.jpg" alt="">
+                            <img src="images/y-logo7.jpg" alt="">
+                            <img src="images/y-logo8.jpg" alt="">
+                            <img src="images/y-logo9.jpg" alt="">
+                            <img src="images/y-logo10.jpg" alt="">
+                            <img src="images/y-logo11.jpg" alt="">
+                            <img src="images/y-logo12.jpg" alt="">
+                            <img src="images/y-logo13.jpg" alt="">
+
+                        </div>
+                        <div class="big-img">
+                            <img src="images/y-logo20.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cate-layer-con clearfix">
+                    <div class="layer-con-left fl">
+                        <div class="con-left-nav">
+                            <a href="#">品牌日</a>
+                            <a href="#">家电城</a>
+                            <a href="#">智能生活馆</a>
+                            <a href="#">京东净化馆</a>
+                            <a href="#">京东帮助馆</a>
+                        </div>
+                        <div class="con-left-conter clearfix">
+                            <ul class="con-left-conter">
+                                <!-- 一个商品分类li  -->
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="layer-con-right fr">
+                        <div class="small-img">
+                            <img src="images/y-logo1.jpg" alt="">
+                            <img src="images/y-logo2.jpg" alt="">
+                            <img src="images/y-logo3.jpg" alt="">
+                            <img src="images/y-logo4.jpg" alt="">
+
+                        </div>
+                        <div class="big-img">
+                            <img src="images/y-logo20.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cate-layer-con clearfix">
+                    <div class="layer-con-left fl">
+                        <div class="con-left-nav">
+                            <a href="#">品牌日</a>
+                            <a href="#">家电城</a>
+                            <a href="#">智能生活馆</a>
+                            <a href="#">京东净化馆</a>
+                            <a href="#">京东帮助馆</a>
+                        </div>
+                        <div class="con-left-conter clearfix">
+                            <ul class="con-left-conter">
+                                <!-- 一个商品分类li  -->
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+                                <li class="con-left-conter1 clearfix">
+                                    <div class="left-conter1-title fl"><a href="#">家用电器</a></div>
+                                    <div class="left-conter1-text fl">
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电饭煲</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="layer-con-right fr">
+                        <div class="small-img">
+                            <img src="images/y-logo1.jpg" alt="">
+                            <img src="images/y-logo2.jpg" alt="">
+                            <img src="images/y-logo3.jpg" alt="">
+                            <img src="images/y-logo4.jpg" alt="">
+                            <img src="images/y-logo5.jpg" alt="">
+                            <img src="images/y-logo6.jpg" alt="">
+                            <img src="images/y-logo7.jpg" alt="">
+                            <img src="images/y-logo8.jpg" alt="">
+                            <img src="images/y-logo9.jpg" alt="">
+                            <img src="images/y-logo10.jpg" alt="">
+                            <img src="images/y-logo11.jpg" alt="">
+                            <img src="images/y-logo12.jpg" alt="">
+                            <img src="images/y-logo13.jpg" alt="">
+
+                        </div>
+                        <div class="big-img">
+                            <img src="images/y-logo20.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- 内容 -->
+    <tbody>
+
+        <div class="content">
+            <div class="banner">
+                <div class="street-banner">
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="street-main">
+                <div class="w1200">
+                    <div class="selector">
+                        <div class="s-line">
+                            <div class="s-l-wrap">
+                                <div class="s-l-tit"><span>分类：</span></div>
+                                <div class="s-l-value">
+                                    <div class="s-l-v-list">
+                                        <ul>
+                                            <li><a href="javascript:void(0);">全部</a></li>
+                                            <li><a href="javascript:void(0);">家用电器</a></li>
+                                            <li><a href="javascript:void(0);">男装女装</a></li>
+                                            <li><a href="javascript:void(0);">鞋靴箱包</a></li>
+                                            <li><a href="javascript:void(0);">手机数码</a></li>
+                                            <li><a href="javascript:void(0);">电脑办公</a></li>
+                                            <li><a href="javascript:void(0);">家居家纺</a></li>
+                                            <li><a href="javascript:void(0);">个人化妆</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s-line">
+                            <div class="s-l-wrap">
+                                <div class="s-l-tit"><span>省份：</span></div>
+                                <div class="s-l-value">
+                                    <div class="s-l-v-list">
+                                        <ul>
+                                            <li><a href="javascript:void(0);">全部</a></li>
+                                            <li><a href="javascript:void(0);"> 北京市</a></li>
+                                            <li><a href="javascript:void(0);">天津市</a></li>
+                                            <li><a href="javascript:void(0);">河北省</a></li>
+                                            <li><a href="javascript:void(0);">山西省</a></li>
+                                            <li><a href="javascript:void(0);">内蒙古</a></li>
+                                            <li><a href="javascript:void(0);">辽宁省</a></li>
+                                            <li><a href="javascript:void(0);">吉林省</a></li>
+                                            <li><a href="javascript:void(0);">黑龙江省</a></li>
+                                            <li><a href="javascript:void(0);">上海市</a></li>
+                                            <li><a href="javascript:void(0);">江苏省</a></li>
+                                            <li><a href="javascript:void(0);">浙江省</a></li>
+                                            <li><a href="javascript:void(0);">安徽省</a></li>
+                                            <li><a href="javascript:void(0);">福建省</a></li>
+                                            <li><a href="javascript:void(0);">江西省</a></li>
+                                            <li><a href="javascript:void(0);">山东省</a></li>
+                                            <li><a href="javascript:void(0);">河南省</a></li>
+                                            <li><a href="javascript:void(0);">湖北省</a></li>
+                                            <li><a href="javascript:void(0);">湖南省</a></li>
+                                            <li><a href="javascript:void(0);">广东省</a></li>
+                                            <li><a href="javascript:void(0);">广西省</a></li>
+                                            <li><a href="javascript:void(0);">海南省</a></li>
+                                            <li><a href="javascript:void(0);">重庆市</a></li>
+                                            <li><a href="javascript:void(0);">四川省</a></li>
+                                            <li><a href="javascript:void(0);">贵州省</a></li>
+                                            <li><a href="javascript:void(0);">云南省</a></li>
+                                            <li><a href="javascript:void(0);">西藏自治区</a></li>
+                                            <li><a href="javascript:void(0);">陕西省</a></li>
+                                            <li><a href="javascript:void(0);">甘肃省</a></li>
+                                            <li><a href="javascript:void(0);">青海省</a></li>
+                                            <li><a href="javascript:void(0);">宁夏自治区</a></li>
+                                            <li><a href="javascript:void(0);">新疆自治区</a></li>
+                                            <li><a href="javascript:void(0);">台湾</a></li>
+                                            <li><a href="javascript:void(0);">香港</a></li>
+                                            <li><a href="javascript:void(0);">澳门</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s-line">
+                            <div class="s-l-wrap">
+                                <div class="s-l-tit"><span>排序方式：</span></div>
+                                <div class="s-l-value">
+                                    <div class="mod-list-sort">
+                                        <div class="sort-l">
+
+                                            <a href="javascript:void(0);" class="sort-item">热门<i class="iconfont icon-up1">&#xe6a5;</i></a>
+                                            <a href="javascript:void(0);" class="sort-item">销量<i class="iconfont icon-up1">&#xe6a5;</i></a>
+                                            <a href="javascript:void(0);" class="sort-item">评分<i class="iconfont icon-up1">&#xe6a5;</i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dwadawd">
+                        <section id="gallery-wrapper">
+                            <article class="white-panel">
+                                <img src="../images/2.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-2.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">绿联专卖店</a>
+                                    </div>
+                                    <p>主营品牌：绿联</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/3.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-3.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">火影旗舰店</a>
+                                    </div>
+                                    <div class="seller-sr">平台自营</div>
+                                    <p>主营品牌：火影</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/4.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-4.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">全友家私</a>
+                                    </div>
+                                    <p>主营品牌：全友家私</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/8.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-8.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">美宝莲</a>
+                                    </div>
+                                    <p>主营品牌：美宝莲</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/1 - 副本.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/996.png" alt="">
+                                    <div class="s-name">
+                                        <a href="">奇居旗舰店</a>
+                                    </div>
+                                    <p>主营品牌：奇居</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/6.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-6.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">成人旗舰店</a>
+                                    </div>
+                                    <p>主营品牌：杜蕾斯</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/2.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-2.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">绿联专卖店</a>
+                                    </div>
+                                    <p>主营品牌：绿联</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/12.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-12.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">多秒屋</a>
+                                    </div>
+                                    <p>主营品牌：多秒屋</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/9.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-9.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">大众专卖店</a>
+                                    </div>
+                                    <p>主营品牌：大众</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/10.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-10.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">当当旗舰店旗舰店</a>
+                                    </div>
+                                    <p>主营品牌：当当旗舰店</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/14.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-14.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">迪卡侬专卖店</a>
+                                    </div>
+                                    <p>主营品牌：迪卡侬</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/11.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-11.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">周大福旗舰店</a>
+                                    </div>
+                                    <p>主营品牌：周大福</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/1 - 副本.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/996.png" alt="">
+                                    <div class="s-name">
+                                        <a href="">火影旗舰店</a>
+                                    </div>
+                                    <div class="seller-sr">平台自营</div>
+                                    <p>主营品牌：火影</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/13.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/-13.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">Swisse专卖店</a>
+                                    </div>
+                                    <p>主营品牌：Swisse</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/997.png" class="thumb">
+                                <div class="info">
+                                    <img src="../images/998.png" alt="">
+                                    <div class="s-name">
+                                        <a href="">大商创旗舰店</a>
+                                    </div>
+                                    <p>主营品牌：佳能</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                            <article class="white-panel">
+                                <img src="../images/999.jpg" class="thumb">
+                                <div class="info">
+                                    <img src="../images/1 - 副本.jpg" alt="">
+                                    <div class="s-name">
+                                        <a href="">创造旗舰店</a>
+                                    </div>
+                                    <p>主营品牌：佳能</p>
+                                    <p>商家等级：<img src="../images/s3.png" alt="" title="https://x.dscmall.cn/storage/普通商家"></p>
+                                </div>
+                            </article>
+                        </section>
+                    </div>
+                    <div class="sellerlist">
+                        <div class="pages">
+                            <div class="item">
+                                <span class="iconfont">&#xe60e;</span>
+                            </div>
+                            <div class="car item">1</div>
+                            <div class="car item">2</div>
+                            <div class="item">
+                                <span class="iconfont">&#xe616;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </tbody>
+    <!-- 尾部 -->
+    <footer style="width: 100%;">
+        <!-- 白色区域 -->
+        <div class="footer-top">
+            <div class="layer">
+                <ul class="fl">
+                    <li>
+                        <i></i>
+                        <span>七天包退</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>正品保障</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>好评如潮</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>闪电发货</span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>权威荣誉</span>
+                    </li>
+                </ul>
+                <div class="footer-top-right fr">
+                    <p>
+                        <i></i>
+                        <span>4001-021-758</span>
+                    </p>
+                    <p>
+                        <i></i>
+                        <span>咨询客服</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 尾巴中部 -->
+        <div class="footer-center">
+            <div class="fnc-warp layer clearfix">
+                <!-- 列表 -->
+                <div class="help-list fl">
+                    <div class="help-item">
+                        <h3>新手上路</h3>
+                        <ul>
+                            <li><a href="#">售后流程</a></li>
+                            <li><a href="#">购物流程</a></li>
+                            <li><a href="#">订购方式</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>配送与支付</h3>
+                        <ul>
+                            <li><a href="#">货到付款区域</a></li>
+                            <li><a href="#">配送支付智能查询</a></li>
+                            <li><a href="#">支付方式说明</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>服务保证</h3>
+                        <ul>
+                            <li><a href="#">退换货原则</a></li>
+                            <li><a href="#">售后服务保证</a></li>
+                            <li><a href="#">产品质量保证</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>联系我们</h3>
+                        <ul>
+                            <li><a href="#">网站故障报告</a></li>
+                            <li><a href="#">选机咨询</a></li>
+                            <li><a href="#">投诉与建议</a></li>
+                        </ul>
+                    </div>
+                    <div class="help-item">
+                        <h3>会员中心</h3>
+                        <ul>
+                            <li><a href="#">资金管理</a></li>
+                            <li><a href="#">我的收藏</a></li>
+                            <li><a href="#">我的订单</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 二维码 -->
+                <div class="qr-code fr">
+                    <!-- 微信二维码 -->
+                    <div class="qr-item fl">
+                        <div class="code_img"><img src="../images/ecjia_qrcode.jpg"></div>
+                        <div class="text">关注微信</div>
+                    </div>
+                    <!-- APP二维码 -->
+                    <div class="qr-item fr">
+                        <div class="code_img"><img src="../images/ectouch_qrcode.jpg"></div>
+                        <div class="text">下载APP</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 尾巴底部 -->
+        <div class="footer-bot">
+            <div class="layer clearfix">
+                <!-- 第一行 -->
+                <p class="copyright_links">
+                    <a href="#">首页</a>
+                    <span></span>
+                    <a href="#">隐私保护</a>
+                    <span></span>
+                    <a href="#">联系我们</a>
+                    <span></span>
+                    <a href="#">免责条款</a>
+                    <span></span>
+                    <a href="#">公司简介</a>
+                    <span></span>
+                    <a href="#">商家入驻</a>
+                    <span></span>
+                    <a href="#">供应商入驻</a>
+                    <span></span>
+                    <a href="#">意见反馈</a>
+                </p>
+                <!-- 第二行 -->
+                <p class="copyright_links">
+                    <a href="#">b2b2c</a>
+                    <span></span>
+                    <a href="#">多用户商城系统</a>
+                    <span></span>
+                    <a href="#">商城系统</a>
+                    <span></span>
+                    <a href="#">ecjia新零售</a>
+                </p>
+                <p class="copyright_auth clearfix">&nbsp;</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../js/pinterest_grid.js"></script>
+    <script src="../js/header.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#gallery-wrapper").pinterest_grid({
+                no_columns: 4,
+                padding_x: 5,
+                padding_y: 5,
+                margin_bottom: 100,
+                single_column_breakpoint: 1200
+            });
+        });
+    </script>
+    <script>
+        console.log('111');
+        console.log($('.variety-item span:even'));
+        $('.variety-item span:even').css('color', '#fff')
+        $('.variety-item span:odd').css('margin-left', 26)
+        $('.variety-item').mouseover(function() {
+            console.log(this);
+
+            $('.cate-layer-con').css('display', 'none');
+            $('.cate-layer-con').eq($(this).index()).css('display', 'block');
+        })
+        $('.variety').mouseleave(function() {
+            console.log(this);
+            $('.cate-layer-con').css('display', 'none');
+        })
+        $('.header-cat').mouseover(function() {
+            $('.variety').css('display', 'block');
+            $(this).css('color', '#fff')
+        })
+        $('.variety').mouseleave(function() {
+            console.log(this);
+            $(this).css('display', 'none');
+        });
+        $('.header-max-nav li a').eq(8).css('color', 'red');
+    </script>
+</body>
+
+</html>

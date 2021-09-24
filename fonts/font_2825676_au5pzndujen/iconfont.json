@@ -1,0 +1,16 @@
+{
+  "id": "2825676",
+  "name": "wda",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "608346",
+      "name": "箭头",
+      "font_class": "jiantouarrow499",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    }
+  ]
+}
